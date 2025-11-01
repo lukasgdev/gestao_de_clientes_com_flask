@@ -1,0 +1,17 @@
+{% extends "index.html" %}
+
+{% block title %}Gestão de Clientes{% endblock %}
+
+{% block content %}
+<form method="POST" action="{{ url_for('cliente.inserir_atualizacao_cliente', cliente_id=cliente.id) }}">
+    <div class="mb-3">
+        <label class="form-label">Nome</label>
+        <input type="text" value="{{ cliente.nome }}" class="form-control" name="nome">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">E-mail</label>
+        <input type="text" value="{{ cliente.email }}" class="form-control" name="email">
+    </div>
+    <button type="submit" class="btn btn-primary">Editar Cliente</button>
+</form>
+{% endblock %}
