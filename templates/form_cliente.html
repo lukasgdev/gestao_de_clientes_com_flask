@@ -3,15 +3,17 @@
 {% block title %}Gestão de Clientes{% endblock %}
 
 {% block content %}
-<form method="POST" action="{{ url_for('cliente.inserir_cliente') }}">
-    <div class="mb-3">
-        <label class="form-label">Nome</label>
-        <input type="text" class="form-control" name="nome">
-    </div>
-    <div class="mb-3">
-        <label class="form-label">E-mail</label>
-        <input type="text" class="form-control" name="email">
-    </div>
-    <button type="submit" class="btn btn-primary">Adicionar Cliente</button>
-</form>
+<div class="container mt-lg-5">
+    <form method="POST" action="{{ url_for('cliente.inserir_cliente') }}">
+        <div class="mb-3">
+            <label class="form-label">Nome</label>
+            <input type="text" class="form-control" name="nome">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">E-mail</label>
+            <input type="text" class="form-control" name="email">
+        </div>
+        <button type="submit" class="btn btn-primary">Adicionar Cliente</button>
+    </form>
+</div>
 {% endblock %}
