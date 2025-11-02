@@ -40,7 +40,7 @@ Siga os passos abaixo para executar o projeto localmente.
 
 **1. Clone o repositório:**
 ```bash
-git clone [https://github.com/seu-usuario/gestao_de_usuarios_flask.git](https://github.com/seu-usuario/gestao_de_usuarios_flask.git)
+git clone https://github.com/lukasgdev/gestao_de_clientes_com_flask.git
 cd gestao_de_usuarios_flask
 ```
 
