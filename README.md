@@ -64,5 +64,5 @@ python -m pip install -r requirements.txt
 
 **4. Execute a aplicação:**
 ```bash
-python -m flask --app main run
+python main.py
 ```
