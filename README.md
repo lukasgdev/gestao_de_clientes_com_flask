@@ -33,3 +33,31 @@ O projeto utiliza um Blueprint (`cliente`) para organizar as rotas:
 | `GET` | `/<id>/edit` | `atualizar_cliente` | Exibe o formulário para editar um cliente existente, com os campos pré-preenchidos. |
 | `POST` | `/<id>/update` | `inserir_atualizacao_cliente` | Recebe os dados do formulário de edição e atualiza o cliente. |
 | `POST` | `/<id>/delete` | `deletar_cliente` | Remove o cliente da lista. |
+
+## 🚀 Como Rodar o Projeto
+
+Siga os passos abaixo para executar o projeto localmente.
+
+**1. Clone o repositório:**
+```bash
+git clone [https://github.com/seu-usuario/gestao_de_usuarios_flask.git](https://github.com/seu-usuario/gestao_de_usuarios_flask.git)
+cd gestao_de_usuarios_flask
+```
+
+**2. Crie e ative um ambiente virtual:**
+```bash
+# Criar o ambiente virtual
+python -m venv .venv
+
+# Ativar no Windows (PowerShell/CMD)
+.venv\Scripts\activate
+
+# Ativar no macOS/Linux
+source .venv/bin/activate
+```
+
+**3. Instale as dependências:**
+```bash
+# Use o método robusto para garantir
+python -m pip install -r requirements.txt
+```
